@@ -31,7 +31,7 @@ module.exports = {
       }
     });
   },
-  async down(queryInterface, Sequelize) {
+  async down(queryInterface, Sequelize) { // eslint-disable-line no-unused-vars
     await queryInterface.dropTable('ToDos');
   }
 };
